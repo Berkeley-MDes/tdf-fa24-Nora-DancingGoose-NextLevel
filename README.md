@@ -5,10 +5,12 @@ This week, I explored the github and rhino. I am total new to Rhino, so I watche
 
 The following series is very useful for me as it explained from the very beginning and in a suitable pace.
 
-<img width="200" alt="Youtube screenshot" src="assets/screenshot.png">
+<img width="400" alt="Youtube screenshot" src="assets/screenshot.png">
 
 ---
 
 I also explored how to add emojis in github
+
 https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md#smileys--emotion
+
 :grinning:
