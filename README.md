@@ -10,7 +10,7 @@ This week I explored on how to use Rhino and Grasshopper to edit models.
 
 This flow diagram is a demonstration about how to make a simple phone stand with basic shapes like sphere and rectangle.
 
-<img width="80%" alt="Youtube screenshot" src="assets/wk2flowchart.heic">
+<img width="80%" alt="Youtube screenshot" src="assets/wk2flowchart.png">
 
 
 ## Manipulate parameters and bake some intermediate states
