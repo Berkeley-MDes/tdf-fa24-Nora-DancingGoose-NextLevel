@@ -16,7 +16,7 @@ This flow diagram is a demonstration about how to make a simple phone stand with
 ## Manipulate parameters and bake some intermediate states
 
 Upon opening the file, I firstly tried to toggle some buttons to see if there is any change to the model. \
-With the display phone button turned off, the phone model disappeared. From this button, I understood the meaning of the **"Filter"**. \
+With the display phone button turned off, the phone model disappeared. From this button, I understood the meaning of  **"Filter"**. \
 <img width="400" alt="Youtube screenshot" src="assets/wk2_1.png">
 
 Then I baked some intermediate state models to get some visualizations about what going on in these steps.\
