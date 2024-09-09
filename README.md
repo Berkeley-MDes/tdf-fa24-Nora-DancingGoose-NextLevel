@@ -43,7 +43,7 @@ Then, I tried to substract again with another box on the top of the cylinders an
 <img width="400" alt="Youtube screenshot" src="assets/wk2_withcylinder.png">
 
 
-This is my baked image.:grinning:
+This is my baked image.  :grinning:
 
 <img width="400" alt="Youtube screenshot" src="assets/wk2_cy phone case.png">\
 
