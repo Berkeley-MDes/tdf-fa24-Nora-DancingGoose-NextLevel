@@ -27,18 +27,24 @@ For example, I baked the following node and knew the substraction result of the 
 
 ## Generating my own phone stand with cylinders
 
-Then I generated my own model with cylinders. \
-To do this, firstly, I created two cylinders with two scalar numbers as radius and height, as well as y-axis as the direction. Then, I substracted these two cylinders with a box under xy plane to ensure that the part under xy plane is eliminated. After that, I substracted the two cylinders to get a shell. In the end, I substracted the phone with phone stand.\
+Then I generated my own model with cylinders. 
 
-However, I found that I cannot get **a enclosed shape** for the phone stand.\
-<img width="400" alt="Youtube screenshot" src="assets/error1.png">\
-<img width="400" alt="Youtube screenshot" src="assets/error2.png">\
+To do this, firstly, I created two cylinders with two scalar numbers as radius and height, as well as y-axis as the direction. Then, I substracted these two cylinders with a box under xy plane to ensure that the part under xy plane is eliminated. After that, I substracted the two cylinders to get a shell. In the end, I substracted the phone with phone stand.
+
+However, I found that I cannot get **a enclosed shape** for the phone stand.
+
+<img width="400" alt="Youtube screenshot" src="assets/error1.png">
+
+<img width="400" alt="Youtube screenshot" src="assets/error2.png">
 
 
-Then, I tried to substract again with another box on the top of the cylinders and finally I got an enclosed shape.\
-<img width="400" alt="Youtube screenshot" src="assets/wk2_withcylinder.png">\
+Then, I tried to substract again with another box on the top of the cylinders and finally I got an enclosed shape.
 
-This is my baked image.:grinning:\
+<img width="400" alt="Youtube screenshot" src="assets/wk2_withcylinder.png">
+
+
+This is my baked image.:grinning:
+
 <img width="400" alt="Youtube screenshot" src="assets/wk2_cy phone case.png">\
 
 
