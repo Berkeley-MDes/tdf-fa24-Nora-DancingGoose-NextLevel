@@ -47,10 +47,10 @@ This is my baked image.  :grinning:
 
 <img width="400" alt="Youtube screenshot" src="assets/wk2_cy phone case.png">
 
----- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- 
+---
 Oh after Monday class, I knew that the cylinder can be enclosed with a "Cap" node.   :grinning:
 
-
+---
 
 
 # Week 1: Everthing starts here #
