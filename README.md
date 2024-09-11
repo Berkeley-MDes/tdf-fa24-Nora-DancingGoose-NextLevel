@@ -45,7 +45,10 @@ Then, I tried to substract again with another box on the top of the cylinders an
 
 This is my baked image.  :grinning:
 
-<img width="400" alt="Youtube screenshot" src="assets/wk2_cy phone case.png">\
+<img width="400" alt="Youtube screenshot" src="assets/wk2_cy phone case.png">
+
+---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- 
+Oh after Monday class, I knew that the cylinder can be enclosed with a "Cap" node.   :grinning:
 
 
 
