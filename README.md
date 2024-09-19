@@ -1,3 +1,22 @@
+# Week 3: Create my own phone stand with Grasshopper!! #
+### Week of 09/12/2024
+
+## Summary
+
+This week I used Grasshopper to created my own phone stand. And I used Prusa printer to printed it out! HORAYYYYY!
+
+## Problems I found for the original design
+The stand is too shallow, causing my phone to slip back and forth, but making the saddle deeper is not an option, as it would obstruct the phone’s screen. And the stand does not provide adequate support for my iPad.
+
+## Working process
+<img width="80%" alt="Youtube screenshot" src="assets/week3.png">
+
+This is what I have made for for the new stand. 
+1.	I added a support column on the top of the stand to support larger devices like ipad.
+2.	I used a solid base instead of a shallow base to lower the center of the gravity.
+3.	I added a cut through in front, so that less view would be blocked.
+---
+
 # Week 2: Modelling a phone stand with Grasshopper #
 ### Week of 09/12/2024
 
