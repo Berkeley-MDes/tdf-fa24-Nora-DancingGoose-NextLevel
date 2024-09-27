@@ -1,3 +1,12 @@
+# Week 4: A network map of a pet camera system #
+
+This week we got started with project 2.
+
+Here is a network map about a pet camera which includes the interaction between the App and the camera.
+<img width="80%" alt="Youtube screenshot" src="assets/IMG_0222.HEIC">
+
+
+
 # Week 3: Create my own phone stand with Grasshopper!! #
 ### Week of 09/12/2024
 
