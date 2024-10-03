@@ -5,6 +5,12 @@ I encountered a bunch of issues in setting up the photon with my laptop, basicll
 
 I also tried about 3 tutorials, here are some photos:
 1. The flash rate of the LED with change with the button
+2. The fsr sensor
+3. The publish to cloud function
+<img width="80%" alt="Youtube screenshot" src="assets/wk5-1.jpg">
+<img width="80%" alt="Youtube screenshot" src="assets/wk5-2.jpg">
+<img width="80%" alt="Youtube screenshot" src="assets/wk5-3.jpg">
+<img width="80%" alt="Youtube screenshot" src="assets/wk5-4.jpg">
 
 
 # Week 4: A network map of a pet camera system #
