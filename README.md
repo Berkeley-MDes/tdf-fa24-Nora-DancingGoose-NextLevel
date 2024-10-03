@@ -1,3 +1,12 @@
+# Week 5: Explore about Photon #
+This week I mainly explored about photon.
+
+I encountered a bunch of issues in setting up the photon with my laptop, basiclly problems like my windows device cannot recognise my photon, my serial port does not appears in the UI after I plugged in my photon. These problems are common when setting up a new microprocesser with PC and I solved these problems with the help of Roopa.
+
+I also tried about 3 tutorials, here are some photos:
+1. The flash rate of the LED with change with the button
+
+
 # Week 4: A network map of a pet camera system #
 
 This week we got started with project 2.
