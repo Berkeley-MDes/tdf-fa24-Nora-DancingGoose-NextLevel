@@ -1,3 +1,20 @@
+# Week 6: Use Photon with accelerometer and gyroscope
+
+This week I have explored to use photon + accelerometer and gyroscope
+
+1. The accelerometer's values are quite big, so I tried to use constrain() function to remove the extreme values, and use map() function to remap the value to a smaller range
+<img width="80%" alt="Youtube screenshot" src="assets/6-4.jpg">
+2. I also tried to smooth out the accelerometer values.
+   Firstly, I defined 3 arraies with a length of 10 to contain accelerometer outputs.
+<img width="80%" alt="Youtube screenshot" src="assets/6-1.jpg">
+   Secondly, I worte a function to calculate average value of number in an array.
+<img width="80%" alt="Youtube screenshot" src="assets/6-2.jpg">
+   Thirdly, I update the numbers in the array in the loop()
+   Finally, I used my function calculateAverage() to calculate the smooth values.
+<img width="80%" alt="Youtube screenshot" src="assets/6-3.jpg">
+
+
+
 # Week 5: Explore about Photon #
 This week I mainly explored about photon.
 
