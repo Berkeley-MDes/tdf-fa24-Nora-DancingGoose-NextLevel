@@ -78,7 +78,107 @@ app.listen(port, () => {
 });
 ```
 
-Then
+Then I wrote a cpp code for my photon. When I press the button, the photon would prompt my message to chatgpt. And the output from gpt would be displayed on OLED.
+```
+#include "application.h"
+#include "../lib/HttpClient/src/HttpClient/HttpClient.h"
+#include "Particle.h"
+#include "Adafruit_SSD1306.h"
+#include "Adafruit_GFX.h"
+#include "splash.h"
+
+SYSTEM_THREAD(ENABLED);
+
+#define SCREEN_WIDTH 128 // OLED display width, in pixels
+#define SCREEN_HEIGHT 64 // OLED display height, in pixels
+#define SCREEN_ADDRESS 0x3D // OLED display address (for the 128x64)
+
+Adafruit_SSD1306 disp(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, -1);
+
+void draw_splash(void); //our splash screen function
+void draw_potval(void); //our potentiometer value display function
+void draw_bitmap(const unsigned char* bitmap, int x, int y, int w, int h, int color);
+int potval = 0;
+
+HttpClient http;
+http_request_t request;
+http_response_t response;
+http_header_t headers[] = {
+    { "Content-Type", "application/json" },
+    { "Accept", "application/json" },
+    { NULL, NULL } // terminator for headers
+};
+
+const char* serverName = "10.41.236.23"; // Replace with your server IP or URL
+int buttonPin = D7; // The button pin
+bool buttonPressed = false;
+
+void setup() {
+  Serial.begin(9600);
+  pinMode(buttonPin, INPUT_PULLUP); // Button setup
+
+  //oled setup
+  delay(8);
+  bool test_access = disp.begin(SSD1306_SWITCHCAPVCC, SCREEN_ADDRESS);
+  if(!test_access){
+    Serial.println(F("SSD1306 allocation failed"));
+    for (;;); // Don't proceed, loop forever
+  }else{
+    Serial.println("SSD1306 allocation success");
+    draw_splash();
+    delay(2000);
+  }
+}
+
+void loop() {
+  if (digitalRead(buttonPin) == LOW) {
+    if (!buttonPressed) {
+      buttonPressed = true;
+
+      // Set the HTTP request URL
+      request.hostname = serverName;
+      request.port = 3000;
+      request.path = "/generate";
+
+      // Send the request
+      http.get(request, response, headers);
+
+      // Output the response to the serial monitor
+      Serial.println("Response from GPT API:");
+      Serial.println(response.status);
+      Serial.println(response.body);
+
+      //display this on OLED screen
+      draw_potval();
+      
+
+    }
+  } 
+  else {
+      buttonPressed = false;
+  }
+  delay(100);
+}
+
+
+
+void draw_splash(void){
+  disp.clearDisplay();
+  disp.drawBitmap(0, 0, epd_pirate_small, SCREEN_WIDTH, SCREEN_HEIGHT, WHITE);
+  disp.display();
+}
+
+void draw_potval(){
+  disp.clearDisplay();
+  disp.setTextSize(1);
+  disp.setTextColor(WHITE);
+  disp.setCursor(0,0);
+  disp.printf(response.body);
+  disp.display();
+}
+```
+
+
 
 # Week 6: Use Photon with accelerometer and gyroscope
 
