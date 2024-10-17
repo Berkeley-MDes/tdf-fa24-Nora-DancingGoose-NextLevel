@@ -1,3 +1,6 @@
+# Week 7：Nodejs + photon
+
+
 # Week 6: Use Photon with accelerometer and gyroscope
 
 This week I have explored to use photon + accelerometer and gyroscope
