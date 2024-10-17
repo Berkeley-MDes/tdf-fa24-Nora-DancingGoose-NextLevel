@@ -1,5 +1,84 @@
-# Week 7：Nodejs + photon
+# Week 7：GPT API + Nodejs + photon
+This week I'm working on the team project. We are making an answer book that generate random advice for the person who opening the book. 
+I have rich experience about microprocessor, so I'm helping out my teammates on basic sensor problems.
+As for myself, I have mainly discovered about how to use call chatgpt API via node js and display the output to OLED.
 
+I firstly wrote a **server.js** code to setup a local server. This piece of code runs a local server at localhost:3000.
+I used the **express** library to handle the app, and I used **https** library to handle request and response.
+Then I wrote a json message about generating an advice, and feed it to chatgpt. 
+Then the output from chatgpt should be stored in **responseData**
+There is also an **if else** statement to handle any error and display the error in terminal.
+
+```
+const apiKey = 'MY API KEY';
+const https = require('https');
+const express = require('express');
+const app = express();
+const port = 3000;
+
+app.get('/generate', (req, res) => {
+  const prompt = "Generate a short advice";
+
+  const data = JSON.stringify({
+    model: "gpt-4o-mini",
+    messages: [
+      {
+        role: "system",
+        content: "You are an assistant that speaks random advice abour career. Be mysterious"
+      },
+      {
+        role: "user",
+        content: [
+          {
+            type: "text",
+            text: prompt
+          }
+        ]
+      }
+    ],
+    max_tokens: 20
+  });
+
+  const options = {
+    hostname: 'api.openai.com',
+    path: '/v1/chat/completions',
+    method: 'POST',
+    headers: {
+      'Authorization': `Bearer ${apiKey}`,
+      'Content-Type': 'application/json',
+      'Content-Length': data.length
+    }
+  };
+
+  const request = https.request(options, (response) => {
+    let responseData = '';
+
+    response.on('data', (chunk) => {
+      responseData += chunk;
+    });
+
+    response.on('end', () => {
+      const result = JSON.parse(responseData);
+      res.send(result.choices[0].message.content.trim());
+      //res.send("Test response from server");
+    });
+  });
+
+  request.on('error', (error) => {
+    console.error(error);
+    res.status(500).send('Error generating text');
+  });
+
+  request.write(data);
+  request.end();
+});
+
+app.listen(port, () => {
+  console.log(`Server listening at http://localhost:${port}`);
+});
+```
+
+Then
 
 # Week 6: Use Photon with accelerometer and gyroscope
 
