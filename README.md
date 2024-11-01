@@ -1,3 +1,9 @@
+# Week 9: Start of Project 3!
+
+
+---
+
+
 # Week 8：Rescue my photon from SOS mode
 This week I'm continue to work on my photon project.
 My photon suddenly went into SOS mode without any change of code.
