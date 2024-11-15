@@ -7,6 +7,10 @@
 
 ---
 # Week 9: Start of Project 3!
+This week is the start of project 3! This is the first time I get touch with Zerowidth. For this project, I aimed to explore a no-code approach to achieving similar results. My focus was to examine how the system is designed to meet the needs of non-programmers in constructing and utilizing an LLM model.
+I did several experiment about 
+
+![image](https://github.com/user-attachments/assets/dcaf5183-0dec-4095-a93a-fcc402df1b6c)
 
 
 ---
