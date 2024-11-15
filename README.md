@@ -1,3 +1,11 @@
+# Week 11: Starting to think about the final project...
+
+
+---
+# Week 10: Project 3 Completed!
+
+
+---
 # Week 9: Start of Project 3!
 
 
