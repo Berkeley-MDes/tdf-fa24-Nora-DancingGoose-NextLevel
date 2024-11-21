@@ -1,23 +1,23 @@
 # Week 12: Develop details about the final project...
 ### Week of 11/28/2024
 
-Reflection:
+### Reflection:
 The second week was dedicated to fleshing out the technical and research details of the project. We outlined a multi-stage plan, starting with data collection for two basic motions: smiling and opening the mouth. I worked on organizing how the collected data would be cleaned, visualized, and split into training and testing sets for ML models. The introduction of CNN (Convolutional Neural Networks) for motion classification showed promise for achieving high accuracy in detecting subtle patterns. Additionally, the integration of the flex sensor's outputs with real-time visual feedback laid the groundwork for the project's technical feasibility. We also began considering the game mechanics, brainstorming how patients could interact with the system in an enjoyable and productive way.
 
-Speculation:
+### Speculation:
 As we move forward, fabricating a prototype to test real-time data classification will be essential. If successful, the next phase will involve scaling the data collection to more complex motions, such as tongue movement or deep breathing, and refining the ML model. Simultaneously, the game design must evolve to ensure usability and accessibility for patients with different levels of mobility. Exploring partnerships with medical professionals to validate the rehabilitation effectiveness and usability of the game could further enhance the project's impact and credibility.
 
-
+<img width="400" alt="Youtube screenshot" src="assets/proj4-2.png">
 
 ---
 
 # Week 11: Starting to think about the final project...
 ### Week of 11/14/2024
-Reflection:
+### Reflection:
 The first week focused on ideation and brainstorming for a novel application of technology to assist with rehabilitation. The concept of detecting lower face expressions using a flex sensor on the neck emerged as a promising direction. This idea addresses a clear need: helping patients with facial paralysis, swallowing difficulties, or cervical-related conditions complete their rehabilitation exercises effectively. By exploring the interplay of motion detection, machine learning, and gamification, I realized the potential for a system that is not only functional but also engaging for patients. Collaborating with teammates enabled us to refine this concept and identify the primary challenges and opportunities, such as motion classification accuracy and user engagement through game design.
-<img width="400" alt="Youtube screenshot" src="assets/proj4-2.png">
 
-Speculation:
+
+### Speculation:
 Building on the brainstorming session, I foresee the next steps involving detailed planning and resource identification. We will need to validate whether flex sensors can reliably detect subtle neck movements associated with facial expressions. Additionally, expanding the concept to include a fun and motivating game interface could be critical for ensuring patient adherence. Exploring other potential motions for data collection, such as tongue movements or breathing patterns, could also enhance the system's utility.
 
 <img width="400" alt="Youtube screenshot" src="assets/proj4-1.png">
