@@ -20,7 +20,7 @@ This week marked my first experience with Zerowidth, exploring no-code approache
 Speculation:
 Building on this, I can explore designing tailored interfaces or workflows for specific user groups, like educators or small businesses. Incorporating feedback from non-technical users into future experiments could further refine the user-centric design of such systems, ensuring broader adoption and impact.
 
-![image](https://github.com/user-attachments/assets/proj3-1.png)
+![image](https://github.com/user-attachments/assets/proj3-1)
 
 
 ---
