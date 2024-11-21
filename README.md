@@ -1,32 +1,68 @@
-# Week 11: Start to think about the final project...
+# Week 12: Develop details about the final project...
+### Week of 11/28/2024
+
+Reflection:
+The second week was dedicated to fleshing out the technical and research details of the project. We outlined a multi-stage plan, starting with data collection for two basic motions: smiling and opening the mouth. I worked on organizing how the collected data would be cleaned, visualized, and split into training and testing sets for ML models. The introduction of CNN (Convolutional Neural Networks) for motion classification showed promise for achieving high accuracy in detecting subtle patterns. Additionally, the integration of the flex sensor's outputs with real-time visual feedback laid the groundwork for the project's technical feasibility. We also began considering the game mechanics, brainstorming how patients could interact with the system in an enjoyable and productive way.
+
+Speculation:
+As we move forward, fabricating a prototype to test real-time data classification will be essential. If successful, the next phase will involve scaling the data collection to more complex motions, such as tongue movement or deep breathing, and refining the ML model. Simultaneously, the game design must evolve to ensure usability and accessibility for patients with different levels of mobility. Exploring partnerships with medical professionals to validate the rehabilitation effectiveness and usability of the game could further enhance the project's impact and credibility.
+
 
 
 ---
 
 # Week 11: Starting to think about the final project...
+### Week of 11/14/2024
+Reflection:
+The first week focused on ideation and brainstorming for a novel application of technology to assist with rehabilitation. The concept of detecting lower face expressions using a flex sensor on the neck emerged as a promising direction. This idea addresses a clear need: helping patients with facial paralysis, swallowing difficulties, or cervical-related conditions complete their rehabilitation exercises effectively. By exploring the interplay of motion detection, machine learning, and gamification, I realized the potential for a system that is not only functional but also engaging for patients. Collaborating with teammates enabled us to refine this concept and identify the primary challenges and opportunities, such as motion classification accuracy and user engagement through game design.
+<img width="400" alt="Youtube screenshot" src="assets/proj4-2.png">
+
+Speculation:
+Building on the brainstorming session, I foresee the next steps involving detailed planning and resource identification. We will need to validate whether flex sensors can reliably detect subtle neck movements associated with facial expressions. Additionally, expanding the concept to include a fun and motivating game interface could be critical for ensuring patient adherence. Exploring other potential motions for data collection, such as tongue movements or breathing patterns, could also enhance the system's utility.
+
+<img width="400" alt="Youtube screenshot" src="assets/proj4-1.png">
 
 
 ---
 # Week 10: Project 3 Completed!
+### Week of 11/7/2024
+Reflection:
+In this iteration, the project reached its final form with The Bard’s Canvas, a platform that generates Shakespearean-style poems and visualizes them as oil paintings. By incorporating a knowledge base of Shakespeare’s works, the system achieved a higher degree of thematic and stylistic alignment. The retrieval and reconstruction of poetic elements demonstrated the power of context-aware AI, while the use of the poems as prompts for DALL-E brought a new dimension to the outputs.
 
+This iteration emphasized the creative potential of combining language and visual models, offering users a seamless way to explore art and literature. It also showcased the value of AI as a tool for bridging cultural history and modern technology, creating outputs that feel both familiar and novel.
+
+Speculation:
+Looking ahead, this approach could be expanded to include more diverse artistic and literary traditions, making the platform a cultural exploration tool. Incorporating interactive elements, such as allowing users to refine the poem or painting iteratively, could further personalize the experience. Moreover, integrating advanced retrieval mechanisms, such as semantic search across larger knowledge bases, could unlock even more nuanced and sophisticated outputs, paving the way for richer AI-human collaborations.
+<img width="400" alt="Youtube screenshot" src="assets/proj3-4.png">
+<img width="400" alt="Youtube screenshot" src="assets/proj3-5.png">
+<img width="400" alt="Youtube screenshot" src="assets/proj3-6.png">
+<img width="400" alt="Youtube screenshot" src="assets/proj3-3.png">
 
 ---
 # Week 9: Start of Project 3!
-
-
-Reflection:
+### Week of 10/31/2024
+### Reflection:
 This week marked my first experience with Zerowidth, exploring no-code approaches to creating and utilizing LLMs. Investigating its design for non-programmers provided insights into accessibility and usability in AI tools. The experiments allowed me to assess how such platforms democratize AI development by lowering technical barriers.
+This week focused on the foundational stages of the project, exploring three distinct iterations to build a robust understanding of how LLMs interact with instructions and knowledge bases. The first iteration, a basic input-output setup with adjustable temperature, provided insights into how parameters like randomness affect the model's creativity and consistency. The second iteration introduced system instructions to guide the LLM’s responses, demonstrating the importance of clear and specific instructions in shaping outputs. The third iteration integrated a knowledge base, allowing the system to retrieve contextual information, which significantly enhanced the relevance and specificity of responses.
 
-Speculation:
-Building on this, I can explore designing tailored interfaces or workflows for specific user groups, like educators or small businesses. Incorporating feedback from non-technical users into future experiments could further refine the user-centric design of such systems, ensuring broader adoption and impact.
+These experiments deepened my understanding of how knowledge design and instruction framing influence AI behavior. They also highlighted challenges, such as balancing the granularity of knowledge base chunking to ensure relevant retrieval without overwhelming the model with extraneous information.
 
-![image](https://github.com/user-attachments/assets/proj3-1)
+### Speculation:
+Building on these initial iterations, future improvements could involve experimenting with more sophisticated chunking methods, such as hierarchical organization or semantic clustering of the knowledge base. Additionally, exploring multi-turn interactions within these setups might unlock more dynamic and conversational outputs, making the system more interactive and adaptable to user queries.
+
+
+<img width="400" alt="Youtube screenshot" src="assets/proj3-1.png">
+<img width="400" alt="Youtube screenshot" src="assets/proj3-2.png">
+
+
 
 
 ---
 
 
 # Week 8：Rescue my photon from SOS mode
+### Week of 10/24/2024
+
 This week I'm continue to work on my photon project.
 My photon suddenly went into SOS mode without any change of code.
 After debugging, I found the issue lies on:
@@ -179,6 +215,8 @@ void draw_potval(String x){
 ---
 
 # Week 7：GPT API + Nodejs + photon
+### Week of 10/17/2024
+
 
 ### Reflection:
 Combining GPT API with Photon and Node.js was a significant leap in exploring AI-driven interactions. Setting up a local server and handling JSON requests allowed me to connect AI-generated advice with physical output on an OLED. The teamwork involved also highlighted the value of collaboration and shared expertise in solving challenges.
@@ -368,6 +406,7 @@ void draw_potval(){
 ---
 
 # Week 6: Use Photon with accelerometer and gyroscope
+### Week of 10/10/2024
 
 ### Reflection:
 This week, I explored integrating the Photon with an accelerometer and gyroscope. The process of handling large accelerometer values and implementing data smoothing techniques was particularly rewarding. Writing functions like constrain() and map() to normalize data taught me the importance of preparing sensor outputs for real-world applications.
@@ -391,6 +430,8 @@ This project could evolve into motion-detection systems or wearable devices that
 ---
 
 # Week 5: Explore about Photon #
+### Week of 10/03/2024
+
 This week I mainly explored about photon.
 
 Reflection:
@@ -413,6 +454,7 @@ As I continue to explore the Photon, I see potential in applying it to IoT proje
 ---
 
 # Week 4: A network map of a pet camera system #
+### Week of 09/26/2024
 
 Reflection:
 This week, I delved into the intricacies of designing a network map for a pet camera system. The exercise gave me insight into the interplay between hardware and software, especially the connections between the app and the camera. It enhanced my understanding of how user interactions are translated into technical functionalities. Additionally, visualizing this system as a network map highlighted areas for optimization, such as streamlining communication protocols or enhancing user accessibility.
@@ -425,7 +467,7 @@ Moving forward, I foresee opportunities to expand the project by incorporating a
 ---
 
 # Week 3: Create my own phone stand with Grasshopper!! #
-### Week of 09/12/2024
+### Week of 09/19/2024
 
 ## Summary
 
