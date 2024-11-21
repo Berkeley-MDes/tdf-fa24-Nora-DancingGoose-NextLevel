@@ -2,13 +2,23 @@
 
 
 ---
+
+# Week 11: Starting to think about the final project...
+
+
+---
 # Week 10: Project 3 Completed!
 
 
 ---
 # Week 9: Start of Project 3!
-This week is the start of project 3! This is the first time I get touch with Zerowidth. For this project, I aimed to explore a no-code approach to achieving similar results. My focus was to examine how the system is designed to meet the needs of non-programmers in constructing and utilizing an LLM model.
-I did several experiment about 
+
+
+Reflection:
+This week marked my first experience with Zerowidth, exploring no-code approaches to creating and utilizing LLMs. Investigating its design for non-programmers provided insights into accessibility and usability in AI tools. The experiments allowed me to assess how such platforms democratize AI development by lowering technical barriers.
+
+Speculation:
+Building on this, I can explore designing tailored interfaces or workflows for specific user groups, like educators or small businesses. Incorporating feedback from non-technical users into future experiments could further refine the user-centric design of such systems, ensuring broader adoption and impact.
 
 ![image](https://github.com/user-attachments/assets/dcaf5183-0dec-4095-a93a-fcc402df1b6c)
 
@@ -25,6 +35,12 @@ After debugging, I found the issue lies on:
 ```
 for (;;); // Don't proceed, loop forever
 ```
+### Reflection:
+Debugging the Photon this week presented a critical learning moment. Diagnosing issues with OLED soldering and the infinite loop error highlighted the importance of both hardware stability and fail-safe coding practices. The hands-on experience taught me the value of iterative problem-solving and patience.
+
+### Speculation:
+With these challenges addressed, I can now focus on optimizing my Photon projects for reliability. Incorporating better soldering techniques or modular designs could minimize hardware issues, while refining error handling in code will ensure robust systems. This groundwork will be invaluable for scaling up future projects.
+
 
 The complete code is here
 ```
@@ -163,6 +179,10 @@ void draw_potval(String x){
 ---
 
 # Week 7：GPT API + Nodejs + photon
+
+### Reflection:
+Combining GPT API with Photon and Node.js was a significant leap in exploring AI-driven interactions. Setting up a local server and handling JSON requests allowed me to connect AI-generated advice with physical output on an OLED. The teamwork involved also highlighted the value of collaboration and shared expertise in solving challenges.
+
 This week I'm working on the team project. We are making an answer book that generate random advice for the person who opening the book. 
 I have rich experience about microprocessor, so I'm helping out my teammates on basic sensor problems.
 As for myself, I have mainly discovered about how to use call chatgpt API via node js and display the output to OLED.
@@ -172,6 +192,9 @@ I used the **express** library to handle the app, and I used **https** library t
 Then I wrote a json message about generating an advice, and feed it to chatgpt. 
 Then the output from chatgpt should be stored in **responseData**
 There is also an **if else** statement to handle any error and display the error in terminal.
+
+### Speculation:
+This integration opens up possibilities for interactive systems that merge AI capabilities with tangible user interfaces. Future iterations could include real-time feedback loops or additional sensors to create personalized and adaptive advice systems, expanding applications in education or mental health support.
 
 ```
 const apiKey = 'MY API KEY';
@@ -346,6 +369,9 @@ void draw_potval(){
 
 # Week 6: Use Photon with accelerometer and gyroscope
 
+### Reflection:
+This week, I explored integrating the Photon with an accelerometer and gyroscope. The process of handling large accelerometer values and implementing data smoothing techniques was particularly rewarding. Writing functions like constrain() and map() to normalize data taught me the importance of preparing sensor outputs for real-world applications.
+
 This week I have explored to use photon + accelerometer and gyroscope
 
 1. The accelerometer's values are quite big, so I tried to use constrain() function to remove the extreme values, and use map() function to remap the value to a smaller range
@@ -359,10 +385,16 @@ This week I have explored to use photon + accelerometer and gyroscope
    Finally, I used my function calculateAverage() to calculate the smooth values.
 <img width="50%" alt="Youtube screenshot" src="assets/6-3.png">
 
+### Speculation:
+
+This project could evolve into motion-detection systems or wearable devices that track activity or posture. Further optimization, such as using machine learning to interpret motion patterns, could unlock new applications in fields like fitness tracking or healthcare monitoring.
 ---
 
 # Week 5: Explore about Photon #
 This week I mainly explored about photon.
+
+Reflection:
+My exploration of the Photon this week introduced both technical challenges and learning opportunities. I encountered common setup issues like device recognition on Windows and serial port visibility, which I resolved with assistance. These hurdles reinforced my troubleshooting skills. Additionally, experimenting with tutorials deepened my understanding of the Photon’s capabilities, such as using sensors and cloud-based functions.
 
 I encountered a bunch of issues in setting up the photon with my laptop, basiclly problems like my windows device cannot recognise my photon, my serial port does not appears in the UI after I plugged in my photon. These problems are common when setting up a new microprocesser with PC and I solved these problems with the help of Roopa.
 
@@ -375,13 +407,19 @@ I also tried about 3 tutorials, here are some photos:
 <img width="80%" alt="Youtube screenshot" src="assets/wk5-3.jpg">
 <img width="80%" alt="Youtube screenshot" src="assets/wk5-4.jpg">
 
+Speculation:
+As I continue to explore the Photon, I see potential in applying it to IoT projects, such as environmental monitoring or smart home devices. Expanding my knowledge of its communication protocols and integrating it with other sensors could enable more complex and functional prototypes.
+
 ---
 
 # Week 4: A network map of a pet camera system #
 
-This week we got started with project 2.
+Reflection:
+This week, I delved into the intricacies of designing a network map for a pet camera system. The exercise gave me insight into the interplay between hardware and software, especially the connections between the app and the camera. It enhanced my understanding of how user interactions are translated into technical functionalities. Additionally, visualizing this system as a network map highlighted areas for optimization, such as streamlining communication protocols or enhancing user accessibility.
 
-Here is a network map about a pet camera which includes the interaction between the App and the camera.
+Speculation:
+Moving forward, I foresee opportunities to expand the project by incorporating advanced functionalities like motion detection or integration with smart home systems. Exploring data encryption for secure video streaming could also become a valuable focus area to ensure user privacy.
+
 <img width="80%" alt="Youtube screenshot" src="assets/IMG_0222.HEIC">
 
 ---
