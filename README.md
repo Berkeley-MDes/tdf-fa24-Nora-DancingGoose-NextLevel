@@ -7,8 +7,9 @@ The second week was dedicated to fleshing out the technical and research details
 ### Speculation:
 As we move forward, fabricating a prototype to test real-time data classification will be essential. If successful, the next phase will involve scaling the data collection to more complex motions, such as tongue movement or deep breathing, and refining the ML model. Simultaneously, the game design must evolve to ensure usability and accessibility for patients with different levels of mobility. Exploring partnerships with medical professionals to validate the rehabilitation effectiveness and usability of the game could further enhance the project's impact and credibility.
 
-<img width="400" alt="Youtube screenshot" src="assets/proj4-2.png">
-
+<img width="400" alt="Youtube screenshot" src="assets/28.png">
+<img width="400" alt="Youtube screenshot" src="assets/29.png">
+<img width="400" alt="Youtube screenshot" src="assets/30">
 ---
 
 # Week 11: Starting to think about the final project...
