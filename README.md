@@ -9,7 +9,7 @@ As we move forward, fabricating a prototype to test real-time data classificatio
 
 <img width="400" alt="Youtube screenshot" src="assets/28.png">
 <img width="400" alt="Youtube screenshot" src="assets/29.png">
-<img width="400" alt="Youtube screenshot" src="assets/30">
+<img width="400" alt="Youtube screenshot" src="assets/30.png">
 ---
 
 # Week 11: Starting to think about the final project...
