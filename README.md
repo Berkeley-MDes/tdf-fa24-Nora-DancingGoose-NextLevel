@@ -51,9 +51,10 @@ These experiments deepened my understanding of how knowledge design and instruct
 ### Speculation:
 Building on these initial iterations, future improvements could involve experimenting with more sophisticated chunking methods, such as hierarchical organization or semantic clustering of the knowledge base. Additionally, exploring multi-turn interactions within these setups might unlock more dynamic and conversational outputs, making the system more interactive and adaptable to user queries.
 
-Below is 
+Below is a diagram about the system.
 <img width="400" alt="Youtube screenshot" src="assets/proj3-1.png">
-<img width="400" alt="Youtube screenshot" src="assets/proj3-2.png">
+below is
+<img width="400" alt="Youtube screenshot" src="assets/proj3-2.png.png">
 
 
 
