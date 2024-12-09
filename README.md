@@ -25,9 +25,11 @@ Challenges Addressed:
 2. Unsuitability of current wearable devices for long-term use due to complex setups or discomfort.
 
 Here is a face landmark that we generate from image
+
 <img width="400" alt="Youtube screenshot" src="assets/13-1.png">
 
 Here is the system diagram for the final project.
+
 <img width="400" alt="Youtube screenshot" src="assets/13-2.png">
 
 
@@ -45,9 +47,11 @@ The second week was dedicated to fleshing out the technical and research details
 As we move forward, fabricating a prototype to test real-time data classification will be essential. If successful, the next phase will involve scaling the data collection to more complex motions, such as tongue movement or deep breathing, and refining the ML model. Simultaneously, the game design must evolve to ensure usability and accessibility for patients with different levels of mobility. Exploring partnerships with medical professionals to validate the rehabilitation effectiveness and usability of the game could further enhance the project's impact and credibility.
 
 Here is our system diagram.
+
 <img width="400" alt="Youtube screenshot" src="assets/12-1.png">
 
 Here is some photos when we do experiment about the fabrication.
+
 <img width="400" alt="Youtube screenshot" src="assets/12-2.png">
 
 
@@ -63,10 +67,13 @@ The first week focused on ideation and brainstorming for a novel application of 
 Building on the brainstorming session, I foresee the next steps involving detailed planning and resource identification. We will need to validate whether flex sensors can reliably detect subtle neck movements associated with facial expressions. Additionally, expanding the concept to include a fun and motivating game interface could be critical for ensuring patient adherence. Exploring other potential motions for data collection, such as tongue movements or breathing patterns, could also enhance the system's utility.
 
 A short introduction & diagram about our project.
+
 <img width="400" alt="Youtube screenshot" src="assets/proj4-1.png">
+
 <img width="400" alt="Youtube screenshot" src="assets/11-1.png">
 
 The first try with the sensor.
+
 <img width="400" alt="Youtube screenshot" src="assets/11-2.png">
 
 
