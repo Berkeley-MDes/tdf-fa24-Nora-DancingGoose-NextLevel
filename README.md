@@ -91,6 +91,7 @@ Speculation:
 Looking ahead, this approach could be expanded to include more diverse artistic and literary traditions, making the platform a cultural exploration tool. Incorporating interactive elements, such as allowing users to refine the poem or painting iteratively, could further personalize the experience. Moreover, integrating advanced retrieval mechanisms, such as semantic search across larger knowledge bases, could unlock even more nuanced and sophisticated outputs, paving the way for richer AI-human collaborations.
 
 Here are the outputs and a system diagram of the final outcome.
+
 <img width="400" alt="Youtube screenshot" src="assets/proj3-4.png">
 <img width="400" alt="Youtube screenshot" src="assets/proj3-5.png">
 <img width="400" alt="Youtube screenshot" src="assets/proj3-6.png">
