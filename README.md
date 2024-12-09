@@ -21,7 +21,14 @@ The first week focused on ideation and brainstorming for a novel application of 
 ### Speculation:
 Building on the brainstorming session, I foresee the next steps involving detailed planning and resource identification. We will need to validate whether flex sensors can reliably detect subtle neck movements associated with facial expressions. Additionally, expanding the concept to include a fun and motivating game interface could be critical for ensuring patient adherence. Exploring other potential motions for data collection, such as tongue movements or breathing patterns, could also enhance the system's utility.
 
+A short introduction & diagram about our project.
 <img width="400" alt="Youtube screenshot" src="assets/proj4-1.png">
+<img width="400" alt="Youtube screenshot" src="assets/11-2.png">
+
+The first try with the sensor.
+<img width="400" alt="Youtube screenshot" src="assets/11-1.png">
+
+
 
 
 ---
@@ -34,6 +41,8 @@ This iteration emphasized the creative potential of combining language and visua
 
 Speculation:
 Looking ahead, this approach could be expanded to include more diverse artistic and literary traditions, making the platform a cultural exploration tool. Incorporating interactive elements, such as allowing users to refine the poem or painting iteratively, could further personalize the experience. Moreover, integrating advanced retrieval mechanisms, such as semantic search across larger knowledge bases, could unlock even more nuanced and sophisticated outputs, paving the way for richer AI-human collaborations.
+
+Here are the outputs and a system diagram of the final outcome.
 <img width="400" alt="Youtube screenshot" src="assets/proj3-4.png">
 <img width="400" alt="Youtube screenshot" src="assets/proj3-5.png">
 <img width="400" alt="Youtube screenshot" src="assets/proj3-6.png">
