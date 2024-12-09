@@ -51,11 +51,16 @@ These experiments deepened my understanding of how knowledge design and instruct
 ### Speculation:
 Building on these initial iterations, future improvements could involve experimenting with more sophisticated chunking methods, such as hierarchical organization or semantic clustering of the knowledge base. Additionally, exploring multi-turn interactions within these setups might unlock more dynamic and conversational outputs, making the system more interactive and adaptable to user queries.
 
-Below is a diagram about the system.
+Below is a diagram about the most basic system.
+
 <img width="400" alt="Youtube screenshot" src="assets/proj3-1.png">
-below is
+
+below is a diagram about a more complicated system.
+
 <img width="400" alt="Youtube screenshot" src="assets/proj3-2.png.png">
 
+Below is a picture I generated from Dall.E module in Zerowidth.
+<img width="400" alt="Youtube screenshot" src="assets/9-1.png">
 
 
 
