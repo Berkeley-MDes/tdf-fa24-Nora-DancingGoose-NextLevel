@@ -113,11 +113,12 @@ Below is a diagram about the most basic system.
 
 <img width="400" alt="Youtube screenshot" src="assets/proj3-1.png">
 
-below is a diagram about a more complicated system.
+Below is a diagram about a more complicated system.
 
 <img width="400" alt="Youtube screenshot" src="assets/proj3-2.png.png">
 
 Below is a picture I generated from Dall.E module in Zerowidth.
+
 <img width="400" alt="Youtube screenshot" src="assets/9-1.png">
 
 
@@ -130,12 +131,14 @@ Below is a picture I generated from Dall.E module in Zerowidth.
 
 This week I'm continue to work on my photon project.
 My photon suddenly went into SOS mode without any change of code.
+
 <img width="50%" alt="Youtube screenshot" src="assets/8-1.png">
 After debugging, I found the issue lies on:
 1. the soldering of OLED with photon is very unstable, it causes my photon to complaining about no OLED detected. To make it more stable, use I2C extend board.
 2. there is one line of code when no OLED is detected that will cause the photon to enter SOS mode.
 
 Below is a review about the overall system
+
 <img width="50%" alt="Youtube screenshot" src="assets/8-2.png">
 ```
 for (;;); // Don't proceed, loop forever
