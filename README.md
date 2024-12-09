@@ -1,3 +1,40 @@
+# Week 13: Develop details about the final project...
+### Week of 12/05/2024
+
+### Reflection:
+This week, we continued to refine our project on detecting lower face expressions using a flex sensor placed on the neck. Our motivation remains focused on addressing challenges in at-home facial rehabilitation exercises for conditions like facial palsy, Parkinson's disease, and post-stroke recovery. We aim to replace camera-based systems with a non-CV (computer vision) approach that is more comfortable and practical for long-term use.
+
+Our progress so far includes:
+
+Iteration 1: Successfully demonstrated the feasibility of using a flex sensor for detecting facial expressions.
+Iteration 2: Collected and manually labeled sensor data into three categories (no expression, smile, open mouth) and trained a CNN model with promising results.
+Iteration 3: Attempted to integrate video-based CV landmarks with sensor data but encountered issues with model reliability and balance.
+Iteration 4: Currently developing a hybrid approach, combining rule-based models for interpreting facial expressions and CNNs for refining predictions.
+
+### Speculation:
+Moving forward, we aim to:
+
+1. Complete Iteration 4 and validate its efficacy with larger datasets.
+2. Explore more complex facial motions such as tongue movement and deep breathing to expand the model's versatility.
+3. Incorporate gamification and usability enhancements to ensure engagement and accessibility for patients.
+4. Seek professional feedback from medical practitioners for further validation and optimization.
+
+Challenges Addressed:
+
+1. Limited range of detectable expressions in existing wearable solutions.
+2. Unsuitability of current wearable devices for long-term use due to complex setups or discomfort.
+
+Here is a face landmark that we generate from image
+<img width="400" alt="Youtube screenshot" src="assets/13-1.png">
+
+Here is the system diagram for the final project.
+<img width="400" alt="Youtube screenshot" src="assets/13-2.png">
+
+
+---
+
+
+
 # Week 12: Develop details about the final project...
 ### Week of 11/28/2024
 
@@ -7,9 +44,13 @@ The second week was dedicated to fleshing out the technical and research details
 ### Speculation:
 As we move forward, fabricating a prototype to test real-time data classification will be essential. If successful, the next phase will involve scaling the data collection to more complex motions, such as tongue movement or deep breathing, and refining the ML model. Simultaneously, the game design must evolve to ensure usability and accessibility for patients with different levels of mobility. Exploring partnerships with medical professionals to validate the rehabilitation effectiveness and usability of the game could further enhance the project's impact and credibility.
 
-<img width="400" alt="Youtube screenshot" src="assets/28.png">
-<img width="400" alt="Youtube screenshot" src="assets/29.png">
-<img width="400" alt="Youtube screenshot" src="assets/31.png">
+Here is our system diagram.
+<img width="400" alt="Youtube screenshot" src="assets/12-1.png">
+
+Here is some photos when we do experiment about the fabrication.
+<img width="400" alt="Youtube screenshot" src="assets/12-2.png">
+
+
 ---
 
 # Week 11: Starting to think about the final project...
@@ -23,10 +64,10 @@ Building on the brainstorming session, I foresee the next steps involving detail
 
 A short introduction & diagram about our project.
 <img width="400" alt="Youtube screenshot" src="assets/proj4-1.png">
-<img width="400" alt="Youtube screenshot" src="assets/11-2.png">
+<img width="400" alt="Youtube screenshot" src="assets/11-1.png">
 
 The first try with the sensor.
-<img width="400" alt="Youtube screenshot" src="assets/11-1.png">
+<img width="400" alt="Youtube screenshot" src="assets/11-2.png">
 
 
 
