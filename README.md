@@ -298,8 +298,10 @@ I have rich experience about microprocessor, so I'm helping out my teammates on 
 As for myself, I have mainly discovered about how to use call chatgpt API via node js and display the output to OLED.
 
 This is th overall architecture of the system.
+
 <img width="50%" alt="Youtube screenshot" src="assets/7-1.png">
 This is one of my captures when I tried out photon.
+
 <img width="50%" alt="Youtube screenshot" src="assets/7-2.png">
 I firstly wrote a **server.js** code to setup a local server. This piece of code runs a local server at localhost:3000.
 I used the **express** library to handle the app, and I used **https** library to handle request and response.
