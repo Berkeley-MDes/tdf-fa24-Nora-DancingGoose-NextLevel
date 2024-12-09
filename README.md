@@ -51,7 +51,7 @@ These experiments deepened my understanding of how knowledge design and instruct
 ### Speculation:
 Building on these initial iterations, future improvements could involve experimenting with more sophisticated chunking methods, such as hierarchical organization or semantic clustering of the knowledge base. Additionally, exploring multi-turn interactions within these setups might unlock more dynamic and conversational outputs, making the system more interactive and adaptable to user queries.
 
-
+Below is 
 <img width="400" alt="Youtube screenshot" src="assets/proj3-1.png">
 <img width="400" alt="Youtube screenshot" src="assets/proj3-2.png">
 
@@ -66,9 +66,13 @@ Building on these initial iterations, future improvements could involve experime
 
 This week I'm continue to work on my photon project.
 My photon suddenly went into SOS mode without any change of code.
+<img width="50%" alt="Youtube screenshot" src="assets/8-1.png">
 After debugging, I found the issue lies on:
 1. the soldering of OLED with photon is very unstable, it causes my photon to complaining about no OLED detected. To make it more stable, use I2C extend board.
 2. there is one line of code when no OLED is detected that will cause the photon to enter SOS mode.
+
+Below is a review about the overall system
+<img width="50%" alt="Youtube screenshot" src="assets/8-2.png">
 ```
 for (;;); // Don't proceed, loop forever
 ```
@@ -226,6 +230,10 @@ This week I'm working on the team project. We are making an answer book that gen
 I have rich experience about microprocessor, so I'm helping out my teammates on basic sensor problems.
 As for myself, I have mainly discovered about how to use call chatgpt API via node js and display the output to OLED.
 
+This is th overall architecture of the system.
+<img width="50%" alt="Youtube screenshot" src="assets/7-1.png">
+This is one of my captures when I tried out photon.
+<img width="50%" alt="Youtube screenshot" src="assets/7-2.png">
 I firstly wrote a **server.js** code to setup a local server. This piece of code runs a local server at localhost:3000.
 I used the **express** library to handle the app, and I used **https** library to handle request and response.
 Then I wrote a json message about generating an advice, and feed it to chatgpt. 
